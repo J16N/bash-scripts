@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script-09 :  Show today's time and date in different format
+# script-09 :  Show current time and date in different format
 # Author    :  Mr. Rabbit
 
 echo -e "Print today's date and time.\n"
