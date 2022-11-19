@@ -1,0 +1,8 @@
+Day		Temperature
+Sunday		50
+Monday		12
+Tuesday		16
+Wednesday	30
+Thursday	22
+Friday		46
+Saturday	23
