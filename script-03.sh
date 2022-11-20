@@ -15,7 +15,6 @@ gcd()
 
 echo "Get G.C.D of list of numbers."
 read -p "Enter numbers (space-seperated): " -a numbers
-numbers=($(echo ${numbers[*]} | tr ' ' '\n' | sort -n | tr '\n' ' '))
 
 ans=${numbers[0]}
 for ((i = 1; i < ${#numbers[*]}; ++i)); do
