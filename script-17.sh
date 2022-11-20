@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script-02 : Age Calculator
+# script-17 : Age Calculator
 # Author    : Mr. Rabbit
 
 invalid()
