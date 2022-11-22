@@ -11,7 +11,7 @@ ans=1
 temp=$(echo "scale=3; $x / 2" | bc)
 
 for ((i = 1, j = 0; i < n; ++i, ++j)); do
-    ans=$(echo "scale=3; $ans + $temp ^ ($i + 1) + (-1) ^ $j" | bc)
+    ans=$(echo "scale=3; $ans + $temp ^ ($i + 1) * (-1) ^ $j" | bc)
 done
 
 printf "Ans: %.3f" "$ans"
